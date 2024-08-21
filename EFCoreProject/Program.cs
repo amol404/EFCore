@@ -1,4 +1,7 @@
 
+using EFCoreProject.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace EFCoreProject
 {
     public class Program
@@ -6,6 +9,8 @@ namespace EFCoreProject
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("JobPortalDB")));
 
             // Add services to the container.
 
