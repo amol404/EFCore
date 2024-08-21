@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreProject", "EFCoreProject\EFCoreProject.csproj", "{7DAC82CC-398D-4139-971E-207786765DDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobPortalApp", "EFCoreProject\JobPortalApp.csproj", "{7DAC82CC-398D-4139-971E-207786765DDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
